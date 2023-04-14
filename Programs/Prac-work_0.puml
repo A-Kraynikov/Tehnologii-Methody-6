@@ -1,4 +1,4 @@
-@startuml
+@startuml "Практическая работа 0"
 left to right direction
 rectangle Гейм-дев_отдел{
 Дизайнер -- (Создание концепта)
