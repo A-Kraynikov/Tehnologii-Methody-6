@@ -27,5 +27,6 @@ UML-скрипт:
     }
     @enduml
 
-Диаграмма:  
+Диаграмма:
+
 ![Prac-work_0](https://user-images.githubusercontent.com/90748885/232142845-4fed59aa-b7da-47fc-8e9e-098f25e9c7ba.png)
