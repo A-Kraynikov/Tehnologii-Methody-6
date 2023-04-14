@@ -8,6 +8,7 @@
 2. Загрузить диаграмму с репозиторий Git
 3. прикрепить ссылку не репозиторий к практической работе
 
+UML-скрипт:
 @startuml
 left to right direction
 rectangle Гейм-дев_отдел{
@@ -25,4 +26,5 @@ rectangle Гейм-дев_отдел{
 }
 @enduml
 
+Диаграмма:
 ![Prac-work_0](https://user-images.githubusercontent.com/90748885/232142845-4fed59aa-b7da-47fc-8e9e-098f25e9c7ba.png)
