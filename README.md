@@ -147,8 +147,8 @@
 
 ##### Диаграммы:
 
-![Prac-work_2-1](https://user-images.githubusercontent.com/90748885/235373479-3ed0ed27-d2c2-49b6-907c-276f69c0cba4.png)
+![Prac-work_2-1](https://user-images.githubusercontent.com/90748885/235373479-3ed0ed27-d2c2-49b6-907c-276f69c0cba4.png)  
 Скриншот 1. Диаграмма последовательности
   
-![Prac-work_2-2](https://user-images.githubusercontent.com/90748885/235373506-e23e71a0-3f7f-4396-8082-d7a65f5698da.png)
+![Prac-work_2-2](https://user-images.githubusercontent.com/90748885/235373506-e23e71a0-3f7f-4396-8082-d7a65f5698da.png)  
 Скриншот 2. Диаграмма развертывания
