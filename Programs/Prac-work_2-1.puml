@@ -1,4 +1,4 @@
-@startuml "Практическая работа 2.1"
+@startuml "Практическая работа 2-1"
 title Система автоматического тестирования: диаграмма последовательности
 skinparam backgroundcolor AntiqueWhite/Grey
 participant Пользователь
