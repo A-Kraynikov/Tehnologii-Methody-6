@@ -97,58 +97,106 @@
 ![Prac-work_1-2](https://user-images.githubusercontent.com/90748885/232159187-7587295b-7e52-4104-88d1-823589a721af.png)  
 Скриншот 2. Диаграмма классов проектируемой информационной системы
   
-## Практическая работа №2
-### Вариант задания: 12 – Система автоматического тестирования
-##### Задачи:
-1.	При помощи программы PlantUML либо любого редактора реализовать диаграммы последовательностей и развёртывания по варианту из практической работы №1.
-2.	Подготовить отчет с включением диаграмм. Загрузить в GIT. Прикрепить ссылку
+  
+## Практическая работа №3
 
 ##### UML-скрипт:
 
-    @startuml "Практическая работа 2-1" 
-    title Система автоматического тестирования: диаграмма последовательности 
-    skinparam backgroundcolor AntiqueWhite/Grey 
-    participant Пользователь 
-    participant Тестирование 
-    participant Программное_обеспечение 
-    activate Пользователь 
-    Пользователь -> Тестирование: Определяет тестовые данные 
-    activate Тестирование 
-    Пользователь -> Программное_обеспечение: Выдает тестовые данные 
-    deactivate Пользователь 
-    activate Программное_обеспечение 
-    Программное_обеспечение -> Тестирование:Приступает к выполнению тестирования 
-    Программное_обеспечение -> Тестирование:Выполняет тестирование 
-    deactivate Тестирование 
-    Программное_обеспечение -> Пользователь:Выводит результаты тестирования 
-    deactivate Программное_обеспечение 
-    activate Пользователь 
-    activate Тестирование 
-    Пользователь -> Тестирование:Анализирует результаты тестирования 
-    deactivate Пользователь 
-    deactivate Тестирование 
-    @enduml
+    @startuml
+    title Пратическая работа 3: Template Method
+    class Algorithm{
+    template_method()
+    flagstock()
+    draw_1()
+    draw_2()
+    draw_3()
+    final()
+    printer()
+    }
+    note right of Algorithm::"template_method()"
+    self.flagstock()
+    self.draw_1()
+    self.draw_2()
+    self.draw_3()
+    self.final()
+    self.printer()
+    end note
     
-    @startuml "Практическая работа 2-2"
-    left to right direction
-    title Система автоматического тестирования: диаграмма развертывания
-    skinparam backgroundcolor AntiqueWhite/Grey
-    database Тестирования
-    node ПК_Пользователь
-    node ПК_Программное_обеспечение
-    node Тестовые_данные
-    node Система_тестирования
-    ПК_Пользователь - Тестовые_данные: Выдаёт
-    ПК_Программное_обеспечение - Тестовые_данные: Использует
-    ПК_Программное_обеспечение - Тестирования: Выполняет
-    ПК_Пользователь - Система_тестирования: Проверка выполнения тестирования
-    Система_тестирования - Тестирования
+    class colors{
+    painwhite()
+    painred()
+    painblue()
+    painblack()
+    painyel()
+    }
+    
+    class RussianFlag{
+    z = colors
+    z.pain
+    draw_1()
+    draw_2()
+    draw_3()
+    final()
+    }
+    class  GermanFlag{
+    z = colors
+    z.pain
+    draw_1()
+    draw_2()
+    draw_3()
+    }
+    
+    Algorithm <|-- GermanFlag : Немецкий флаг
+    Algorithm <|-- RussianFlag : Российский флаг
+    
+    RussianFlag -  GermanFlag 
+    (RussianFlag, GermanFlag) - colors:Задает цвет
+    
     @enduml
-
-##### Диаграммы:
-
-![Prac-work_2-1](https://user-images.githubusercontent.com/90748885/235373479-3ed0ed27-d2c2-49b6-907c-276f69c0cba4.png)  
-Скриншот 1. Диаграмма последовательности
   
-![Prac-work_2-2](https://user-images.githubusercontent.com/90748885/235373506-e23e71a0-3f7f-4396-8082-d7a65f5698da.png)  
-Скриншот 2. Диаграмма развертывания
+    @startuml 
+    title Пратическая работа 3: Strategy 
+    
+    class Variant{ 
+    selection() 
+    } 
+    class Game{ 
+    strategy: Variant 
+    init() 
+    play() 
+    } 
+    
+    class Rock{ 
+    selection() 
+    } 
+    class Paper{ 
+    selection() 
+    } 
+    class Clippers{ 
+    selection() 
+    } 
+    class main{ 
+    int n 
+    str vibor 
+    playtime() 
+    player1.play(player2) 
+    } 
+    note right of main::"playtime()" 
+    player1 = playtime(vibor) 
+    player2 = playtime(vibor) 
+    end note 
+    
+    Paper --> Variant 
+    Rock --> Variant 
+    Clippers --> Variant 
+    main *--> Variant 
+    main --Game 
+    
+    @enduml 
+  
+##### Диаграммы:
+![Prac-work_3-method](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/56c56b81-b687-4a5c-a591-45160c809f98)
+Скриншот 1. Диаграмма шаблонного метода
+  
+![Prac-work_3-strategy](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/72000095-c931-4811-8651-cefe2b46ca55)
+Скриншот 2. Диаграмма стратегии
