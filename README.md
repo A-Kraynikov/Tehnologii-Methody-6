@@ -195,8 +195,8 @@
     @enduml 
   
 ##### Диаграммы:
-![Prac-work_3-method](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/56c56b81-b687-4a5c-a591-45160c809f98)
+![Prac-work_3-method](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/56c56b81-b687-4a5c-a591-45160c809f98)  
 Скриншот 1. Диаграмма шаблонного метода
   
-![Prac-work_3-strategy](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/72000095-c931-4811-8651-cefe2b46ca55)
+![Prac-work_3-strategy](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/72000095-c931-4811-8651-cefe2b46ca55)  
 Скриншот 2. Диаграмма стратегии
