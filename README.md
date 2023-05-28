@@ -270,8 +270,8 @@ UML-скрипт: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/
 Посетитель: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_4-2.py
   
 ##### Диаграммы:
-![Prac-work_4-iterator](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/5e836642-ee4a-410d-88d7-89f948b8a46e)
+![Prac-work_4-iterator](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/5e836642-ee4a-410d-88d7-89f948b8a46e)  
 Скриншот 1. Диаграмма итератора
   
-![Prac-work_4-visitor](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/1f5ea4bf-e00b-45ac-ae66-883f57eef394)
+![Prac-work_4-visitor](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/1f5ea4bf-e00b-45ac-ae66-883f57eef394)  
 Скриншот 2. Диаграмма посетителя
