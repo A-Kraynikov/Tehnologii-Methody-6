@@ -258,3 +258,20 @@
   
 ![Prac-work_3-strategy](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/72000095-c931-4811-8651-cefe2b46ca55)  
 Скриншот 2. Диаграмма стратегии
+  
+  
+  
+## Практическая работа №4: Итератор, посетитель
+
+UML-скрипт: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/Prac-work_4.puml
+  
+Итератор: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_4-1.py
+  
+Посетитель: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_4-2.py
+  
+##### Диаграммы:
+![Prac-work_4-iterator](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/5e836642-ee4a-410d-88d7-89f948b8a46e)
+Скриншот 1. Диаграмма итератора
+  
+![Prac-work_4-visitor](https://github.com/A-Kraynikov/Tehnologii-Methody-6/assets/90748885/1f5ea4bf-e00b-45ac-ae66-883f57eef394)
+Скриншот 2. Диаграмма посетителя
