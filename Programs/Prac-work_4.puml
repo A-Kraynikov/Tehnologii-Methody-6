@@ -1,0 +1,90 @@
+@startuml
+title Пратическая работа 4: Схема Итератора
+class main{
+cookie = cookieAggregate(5)
+iterator = cookie.iterator()
+}
+
+class cookieAggregate{
+iterator()
+amount_num()
+}
+
+class cookienumIterator{
+init()
+next(self)
+has_next(self)
+}
+class  Iterator{
+next(self)
+has_next(self)
+}
+
+main <- cookieAggregate
+main ..>Iterator:<<create>>
+cookienumIterator <.. cookieAggregate: <<create>>
+cookienumIterator o-- cookieAggregate
+cookienumIterator --> Iterator
+
+note right of cookieAggregate::"iterator()"
+return cookienumIterator(self.num)
+end note
+
+@enduml
+
+
+
+
+
+@startuml
+title Пратическая работа 4: Посетитель
+
+class OrderItemVisitor{
+<<interface>>
+visit(self, item)
+}
+
+class ItemElement{
+<<interface>>
+accept(self, visitor: OrderItemVisitor)
+}
+
+class Cake{
+init()
+get_price(self)
+accept(self, visitor: OrderItemVisitor)
+}
+class  Coffee{
+init()
+get_price(self)
+accept(self, visitor: OrderItemVisitor)
+}
+class WithOutDiscountVisitor{
+visit(self, item: ItemElement)
+}
+
+class OnlyCakeDiscountVisitor{
+visit(self, item: ItemElement)
+}
+
+class OnlyCoffeeDiscountVisitor{
+visit(self, item: ItemElement)
+}
+
+class AllDiscountVisitor{
+visit(self, item: ItemElement)
+}
+
+AllDiscountVisitor..>OrderItemVisitor
+WithOutDiscountVisitor..>OrderItemVisitor
+OnlyCakeDiscountVisitor..>OrderItemVisitor
+OnlyCoffeeDiscountVisitor..>OrderItemVisitor
+
+OrderItemVisitor..>Cake
+OrderItemVisitor..>Coffee
+
+ItemElement..>OrderItemVisitor
+Cake..>ItemElement
+Coffee ..>ItemElement
+
+@enduml
