@@ -293,9 +293,8 @@ UML-скрипт: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/
 
 ## Практическая работа №6: Инверсия управления. Заместитель, Компоновщик  
 
-Инверсия управления:
+Инверсия управления: https://github.com/A-Kraynikov/Tehnologii-Methody-6/tree/main/Programs/prac_6_Inversion-of-control  
 
-Заместитель:
+Заместитель: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_6-2.py  
 
-Компоновщик:
-
+Компоновщик:  https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_6-3.py  
