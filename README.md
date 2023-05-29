@@ -282,8 +282,11 @@ UML-скрипт: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/
 ## Практическая работа №5: Абстрактная фабрика. Посредник. Строитель. Адаптер
 
 Абстрактная фабрика: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_5-1.py  
+
 Посредник: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_5-4.py  
+
 Строитель: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_5-2.py  
+
 Адаптер: https://github.com/A-Kraynikov/Tehnologii-Methody-6/blob/main/Programs/prac_5-3.py  
 
 
